@@ -1,4 +1,4 @@
-importScripts('/wasm_module.js');
+importScripts('./wasm_module.js');
 
 self.onmessage = e => {
     Module().then(function (module) {
